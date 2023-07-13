@@ -1,7 +1,7 @@
-### TP-Redes
+# TP-Redes
 ## Servidor de Mensagens Publish/Subscribe
 
-# Introdução
+### Introdução
 Neste trabalho iremos implementar um servidor e clientes para troca de mensagens de forma
 similar ao serviço da plataforma Twitter. Clientes enviam mensagens para o servidor
 informando em quais mensagens estão interessados. O servidor recebe mensagens de clientes
@@ -11,7 +11,7 @@ servidor em quais tags está interessado, e o servidor irá repassar ao cliente 
 mensagens que contém pelo menos uma tag de seu interesse. Esse paradigma de
 comunicação é conhecido como publish/subscribe.
 
-# Protocolo
+### Protocolo
 Servidores e clientes trocam mensagens curtas de até 500 bytes usando o protocolo TCP.
 Mensagens carregam texto codificado segundo a tabela ASCII. Apenas letras, números, os
 caracteres de pontuação ,.?!:;+-*/=@#$%()[]{} e espaços podem ser transmitidos.
