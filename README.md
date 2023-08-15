@@ -1,5 +1,6 @@
-# TP-Redes
-## Servidor de Mensagens Publish/Subscribe
+# Servidor de Mensagens Publish/Subscribe
+
+Trabalho Prático apresentado para obtenção de créditos na disciplina de Redes de Computadores - DCC/UFMG
 
 ### Introdução
 Neste trabalho iremos implementar um servidor e clientes para troca de mensagens de forma
